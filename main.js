@@ -13,9 +13,6 @@ var obj2 = {
 }
 
 console.log(obj1);
-console.log(obj1.name_last);
-console.log(obj1.name_first);
-console.log(obj1.email);
 
 var arr1 = [ "Tyson" , "Hood" , "Tyson@TysonHood.com" , "Hi, I'm Tyson." ]
 console.log(arr1);
@@ -33,3 +30,4 @@ console.log(arr1[2]);
 var arr1 = [ obj1 , obj2 ]
 console.log(arr1);
 console.log(arr1[1]);
+console.log(arr1[1].name_last);
